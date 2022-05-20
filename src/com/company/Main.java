@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> list = createList(500, 1000000);
+        ArrayList<Integer> list = createList(1000, 1000000);
 
         CountingSort cs = new CountingSort();
         list = cs.sort(list);
